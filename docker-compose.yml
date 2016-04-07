@@ -1,0 +1,6 @@
+version: '2'
+
+services:
+  ncmpcpp:
+    build: ncmpcpp
+    container_name: ncmpcpp
