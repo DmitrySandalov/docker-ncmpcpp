@@ -11,4 +11,4 @@ echo "compile ncmpcpp"
 docker-compose build
 
 echo "run ncmpcpp"
-echo "docker run -it --rm ncmpcpp_ncmpcpp ncmpcpp -h 127.0.0.1"
+echo "docker run -it --rm  -v "$HOME/.ncmpcpp:/root/.ncmpcpp" dockerncmpcpp_ncmpcpp ncmpcpp"
